@@ -1,0 +1,39 @@
+Songname,Artist,Album,Time,Id
+# THIS FILE CONTAINS ALL SONGS IN iTunes,,,,
+# Aug 29 2014,,,,
+######################################################,,,,
+"# 			All SONGS",,,,
+#######################################################,,,,
+# (1) This file can be very sensitive to errors.,,,,
+# (2) note, that there is no space after a comma,,,
+# (3) all entries are strings except time which is a float,,,,
+# (4) we need to explicitly write code to ignore the commented lines,,,,
+#######################################################,,,,
+# Misc songs by the Gorillaz,,,,
+Feel Good Inc.,Gorillaz,Demon Days,4.18,10
+Rhinestone Eyes,Gorillaz,Plastic Beach,3.23,11
+Clint Eastwood,Gorillaz,Gorillaz,4.34,12
+DARE,Gorillaz,Gorillaz,4.5,13
+#,,,,
+# Journey,,,,
+Carry On My Wayward Son,Kansas,Leftoverture,5.23,14
+#,,,,
+# Michael Jackson's Bad,,,,
+Smooth Criminal,Michael Jackson,Bad,4.17,15
+Bad,Michael Jackson,Bad,8.22,16
+Man in the Mirror,Michael Jackson,Bad,5.19,17
+Dirty Diana,Michael Jackson,Bad,4.52,18
+#,,,,
+"# The Smashing Pumpkins ""Mellon Collie and the Infinite Sadness""",,,,
+1979,The Smashing Pumpkins,Mellon Collie and the Infinite Sadness,4.21,19
+We Only Come Out At Night,The Smashing Pumpkins,Mellon Collie and the Infinite Sadness,4.23,20
+Zero,The Smashing Pumpkins,Mellon Collie and the Infinite Sadness,2.54,21
+#,,,,
+# Miscellaneous Radiohead songs,,,,
+Creep,Radiohead,Pablo Honey,3.57,22
+Just,Radiohead,The Bends,3.55,23
+#,,,,
+# Miscellaneous songs and artists,,,,
+Hooked On A Feeling,Blue Swede,Hooked On A Feeling,2.54,500
+Aerodynamic,Daft Punk,Discovery,3.32,25
+Stairway To Heaven,Led Zeppelin,Led Zeppelin IV,7.58,26

@@ -1,0 +1,10 @@
+<h1>Check out all the songs you own!</h1>
+
+<%if !@songs.empty? then%>
+	<% @songs.each do |song| %>
+		<li> <%=h song.title %> by <%=h song.artist %>, in  <%=h song.in_album %> : <%=h song.id %> 
+	 	[Owned by Actor  <%=h Actor.find_by_id(song.actor_id) %>] </li>
+	<% end %>
+<%else%>
+	<p>You don't own any songs yet. Sorry.</p>
+<% end %>

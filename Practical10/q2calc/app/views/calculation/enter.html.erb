@@ -1,0 +1,15 @@
+<h1>Welcome to the amazing Calculator App!</h1>
+<p><%= flash[:notice] %></p>
+<p>Please enter two number and choose an action. This app will take your first number, then perform your chosen action on that number using the second number.</p>
+
+<%= form_tag("calculate", :method => 'get') do %>
+  <p> First number:
+	<%= number_field_tag 'num1' %>
+   <p> Second number:
+	<%= number_field_tag 'num2' %>
+    <%= submit_tag 'Add!', :name => "addition" %>
+    <%= submit_tag 'Subtract!', :name => "subtraction" %>
+    <%= submit_tag 'Multiply!', :name => "multiplication" %>
+    <%= submit_tag 'Divide!', :name => "division" %>
+<% end %>
+

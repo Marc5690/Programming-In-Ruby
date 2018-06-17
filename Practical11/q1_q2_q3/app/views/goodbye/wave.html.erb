@@ -1,0 +1,7 @@
+<h1>Goodbye#actor_wave</h1>
+
+<p>bye bye <%= @actor.to_s %>  <%h= @value %> </p>
+<p><%= @value %> </p>
+
+<%= link_to "Click here to reset the database and start again", 
+				:controller => "clean", :action => "finish" %>

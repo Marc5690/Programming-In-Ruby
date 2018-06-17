@@ -1,0 +1,14 @@
+<h1>Song Listing</h1>
+<ul>
+<p>Your status is "<%= @actor.status.to_s %>" </p>
+<% if @actor.status.eql?("Admin") %>
+<% @songs.each do |song| %>
+	<li> <%=h song.title %> by <%=h song.artist %>, in  <%=h song.in_album %> : <%=h song.id %> 
+	 [Owned by Actor ID <%=h song.actor_id %>] </li>
+<% end %>
+<% else  %>
+<% @songs.each do |song| %>
+	<li> <%=h song.title %> by <%=h song.artist %></li>
+<% end %>
+<% end %>
+</ul>

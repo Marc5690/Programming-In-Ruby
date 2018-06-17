@@ -1,0 +1,18 @@
+<h1>Actor Listing</h1>
+<% if @actor.status.eql?("Admin") %>
+<ul>
+<% @actors.each do |actor| %>
+	<li> <%=h actor.name %> the <%=h actor.status %>, likes  <%=h actor.likes %> : <%=h actor.id %> </li>
+<% end %>
+</ul>
+<% else  %>
+<ul>
+<% @actors.each do |actor| %>
+	<li> <%=h actor.name %> the <%=h actor.status %></li>
+<% end %>
+</ul>
+<%end%>
+
+
+<p> Say 
+    <%= link_to 'Goodbye!', :controller => 'goodbye', :action => 'wave', :id => "foobar" %></p>
